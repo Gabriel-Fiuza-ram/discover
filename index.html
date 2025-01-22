@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>projeto</title>
+    <link rel="stylesheet" href="delicia.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./img/download.jpg"
+          alt="foto do robozinho trabalhando no fundo azul."
+        />
+        <p id="btn">@gbfz_</p>
+      </div>
+      <ul>
+        <li>
+          <a href="https://instagram.com/gbfz_" target="_blank">instagram</a>
+        </li>
+
+        <li>
+          <a href="https://baixaki.com.br" target="_blank">baixar</a>
+        </li>
+
+        <li>
+          <a href="https://x.com" target="_blank">vire militante</a>
+        </li>
+        <li>
+          <a href="https://youtube.com" target="_blank">assista videos</a>
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/Gabriel-Fiuza-ram" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a
+          href="https://linkedin.com/in/gabriel-fiuza-7615742bb/"
+          target="_blank"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="https://youtube.com" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="https://" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </div>
+      <footer>
+        Feito por
+        <a href="https://github.com/Gabriel-Fiuza-ram" target="_blank"
+          >Gabriel Fiuza</a
+        >
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+  <script>
+    const btn = document.getElementById("btn");
+    btn.addEventListener("click", () => {
+      const html = document.getElementsByTagName("html")[0];
+      html.classList.toggle("light");
+    });
+  </script>
+</html>
