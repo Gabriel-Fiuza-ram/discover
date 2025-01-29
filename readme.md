@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto devlinks" src="https://github.com/Gabriel-Fiuza-ram/discover/blob/main/.github/Cover.png?raw=true" width="100%">
+  <img alt="Projeto devlinks" src=".github/links.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
