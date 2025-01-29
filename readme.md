@@ -1,5 +1,5 @@
 <h1 align="center"> devLinks
-  <image src=".github/logo.svg"/>
+  <image src=""/>
 </h1>
 
 <br>
@@ -27,11 +27,10 @@ Um agregador de links para usar como cartão de visitas online.
 
 ## ⚒️ Features
 
-- [x] Adicionar café no carinho
-- [x] Remove café do carinho
-- [x] CEP automático
-- [x] Método de pagamento
-- [x] Soma de todos os café
+- [x] instagram
+- [x] baixar
+- [x] X
+- [x] Youtube
 
 <br>
 
@@ -40,10 +39,6 @@ Um agregador de links para usar como cartão de visitas online.
 Layout da aplicação no [figma](https://www.figma.com/file/5yT9ZzZmRQRS4yivGGB3pl/Coffee-Delivery/duplicate?node-id=0-1).
 
 <br>
-
-## 🌐 Deploy
-
-Você pode ver o site clicando <a href="https://coffee-delivery-wheat.vercel.app/" target="_blank">nesse link</a>.
 
 <br>
 
