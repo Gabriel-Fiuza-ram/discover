@@ -31,12 +31,14 @@ Um agregador de links para usar como cartão de visitas online.
 - [x] baixar
 - [x] X
 - [x] Youtube
+- [x] github
+- [x] linkedin
 
 <br>
 
 ## 🔖 Layout
 
-Layout da aplicação no [figma](https://www.figma.com/file/5yT9ZzZmRQRS4yivGGB3pl/Coffee-Delivery/duplicate?node-id=0-1).
+tamplate base da aplicação no [figma](https://www.figma.com/file/5yT9ZzZmRQRS4yivGGB3pl/Coffee-Delivery/duplicate?node-id=0-1).
 
 <br>
 
