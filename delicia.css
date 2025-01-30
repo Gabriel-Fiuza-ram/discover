@@ -31,7 +31,7 @@ body * {
   --bg-url: url(./img/bg-desktop-light.jpg);
   --stroke-color: rgb(129, 129, 129);
   --background-hover: rgba(197, 195, 195, 0.76);
-  --highlight-color: rgba(197, 195, 195, 0.76);
+  --highlight-color: rgba(214, 210, 210, 0.76);
   --switch-bg-url: url(/sun.svg);
 }
 
@@ -132,6 +132,10 @@ ul li a:hover {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
+  animation: slide-out 0.2s;
+}
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 #switch span {
   display: block;
@@ -144,8 +148,7 @@ ul li a:hover {
   border-radius: 9999px;
 }
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.4s forwards;
 }
 
 footer {
@@ -163,5 +166,21 @@ footer a {
 
   .light {
     --bg-url: url(img/bg-desktop-light.jpg);
+  }
+}
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+@keyframes slide-out {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
