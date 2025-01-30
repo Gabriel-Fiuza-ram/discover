@@ -1,4 +1,4 @@
-<h1 align="center"> devLinks
+<h1 align="center"> DevLinks
   
 </h1>
 
