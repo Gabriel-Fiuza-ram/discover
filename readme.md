@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto devlinks" src=".github/links.png" width="100%">
+  <img alt="Projeto devlinks" src=".github/Group 1.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
