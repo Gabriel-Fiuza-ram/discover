@@ -1,5 +1,5 @@
 <h1 align="center"> devLinks
-  <image src=""/>
+  
 </h1>
 
 <br>
